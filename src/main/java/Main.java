@@ -24,22 +24,14 @@ public class Main {
      * @param numTwo - an integer
      * @return the sum of numOne and numTwo (an integer)
      */
-    public static int add(int numOne, int numTwo) {
 
-        return numOne + numTwo;
-
-    }
 
     /**
      * greeting
      * @param name - the name of a person (a String)
      * @return a greeting in the format of "Bonjour, [name]!" (a String)
      */
-    public static String greeting(String name) {
 
-        return "Bonjour, " + name + "!";
-
-    }
 
     /**
      * add
@@ -49,21 +41,13 @@ public class Main {
      * @param numFour - an integer
      * @return the sum of numOne, numTwo, numThree, and numFour (an integer)
      */
-    public static int add(int numOne, int numTwo, int numThree, int numFour) {
 
-        return add(add(numOne, numTwo), add(numThree, numFour));
-
-    }
 
     /**
      * printCapitalised
      * @param toBePrinted - a String that the user wishes to be printed in all caps.
      */
-    public static void printCapitalised(String toBePrinted) {
 
-        System.out.println(toBePrinted.toUpperCase());
-
-    }
 
 
 
